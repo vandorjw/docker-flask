@@ -43,6 +43,7 @@ gunicorn = "*"
 elasticsearch-dsl = "==5.4.0"
 elasticsearch = "==5.5.1"
 celery = {extras = ["redis"]}
+whitenoise = "*"
 
 
 [dev-packages]
